@@ -6,16 +6,11 @@ public class Person {
 	private String name;
 	private int age;
 	private String address;
-	private String[] hobby;
-	private String phone;
+	private String email;
+	private boolean married;
 	
 	
-	public String getPhone() {
-		return phone;
-	}
-	public void setPhone(String phone) {
-		this.phone = phone;
-	}
+	
 	public Person() {
 		super();
 		// TODO Auto-generated constructor stub
@@ -38,11 +33,17 @@ public class Person {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-	public String[] getHobby() {
-		return hobby;
+	public String getEmail() {
+		return email;
 	}
-	public void setHobby(String[] hobby) {
-		this.hobby = hobby;
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public boolean isMarried() {
+		return married;
+	}
+	public void setMarried(boolean married) {
+		this.married = married;
 	}
 	
 	
